@@ -1,0 +1,30 @@
+.profile-picture img {
+  border: solid 1px white;
+  border-radius: 8px;
+}
+
+.social-links a {
+  padding: 0 10px;
+  margin-top: 10px;
+}
+
+.social-links {
+  margin-top: 10px;
+}
+
+.contact-info p {
+  margin: 0;
+}
+
+.stack ul {
+  list-style: none;
+  padding: 0 5px;
+}
+
+.stack li {
+  display: inline-block;
+  padding: 8px 12px;
+  margin: 5px;
+  background-color: #d0ece7;
+  border-radius: 10px;
+}
