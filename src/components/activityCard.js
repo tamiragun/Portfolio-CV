@@ -14,6 +14,7 @@ export class ActivityCard extends React.Component {
   }
 }
 
+/*Component returns a list of activities*/
 export function ActivitiesList(props) {
   const activities = props.activities;
   const activitiesList = activities.map((activity, i) => (

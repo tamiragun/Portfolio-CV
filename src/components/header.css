@@ -1,0 +1,19 @@
+/*Styling for mobile screens*/
+header {
+  margin: 0 20px 40px 20px;
+  padding: 5px 10px;
+  border-radius: 10px;
+  background-color: #d0ece7;
+}
+
+/*Styling for desktop screens*/
+@media screen and (min-width: 800px) {
+  header {
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #d0ece7;
+    max-width: 1200px;
+    font-size: 18pt;
+  }
+}

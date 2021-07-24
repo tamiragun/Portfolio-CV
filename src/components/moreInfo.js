@@ -19,20 +19,22 @@ export class MoreInfo extends React.Component {
         <div className="admin">
           <h3>Admin</h3>
           <table>
-            <tr>
-              <td className="table-title">Timezone:</td>
-              <td className="table-description">SAST</td>
-            </tr>
-            <tr>
-              <td className="table-title">Location:</td>
-              <td className="table-description">Cape Town, South Africa</td>
-            </tr>
-            <tr>
-              <td className="table-title">Citizenship:</td>
-              <td className="table-description">
-                SA permanent resident, Belgian citizen
-              </td>
-            </tr>
+            <tbody>
+              <tr>
+                <td className="table-title">Timezone:</td>
+                <td className="table-description">SAST</td>
+              </tr>
+              <tr>
+                <td className="table-title">Location:</td>
+                <td className="table-description">Cape Town, South Africa</td>
+              </tr>
+              <tr>
+                <td className="table-title">Citizenship:</td>
+                <td className="table-description">
+                  SA permanent resident, Belgian citizen
+                </td>
+              </tr>
+            </tbody>
           </table>
         </div>
       </div>

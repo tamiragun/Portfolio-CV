@@ -8,6 +8,8 @@ import React from "react";
 class App extends React.Component {
   constructor(props) {
     super(props);
+
+    /*Establish the screen size at the start*/
     if (window.matchMedia("(min-width: 800px)").matches) {
       this.state = { device: "desktop" };
     } else {
@@ -17,6 +19,7 @@ class App extends React.Component {
     this.handleChange = this.handleChange.bind(this);
   }
 
+  /*Event handler for when the screen size changes */
   handleChange(mediaQuery) {
     if (mediaQuery.matches) {
       // If media query matches
@@ -27,8 +30,10 @@ class App extends React.Component {
   }
 
   render() {
+    /*Event listener for screen size changes, from 
+    https://www.w3schools.com/howto/howto_js_media_queries.asp */
     var mediaQuery = window.matchMedia("(min-width: 800px)");
-    mediaQuery.addListener(this.handleChange); // Attach listener function on state changes
+    mediaQuery.addListener(this.handleChange);
 
     return (
       <div className="App">
@@ -36,6 +41,7 @@ class App extends React.Component {
         <div className="cv">
           <div className="side-section">
             <About skills={currentStack} />
+            {/*This should show up under the about section only on desktop devices*/}
             {this.state.device === "desktop" && (
               <MoreInfo skills={currentSkills} id="more-info-desktop" />
             )}
@@ -45,6 +51,7 @@ class App extends React.Component {
             <ActivityCard activities={awards} title="Awards" />
             <ActivityCard activities={workActivities} title="Work experience" />
             <ActivityCard activities={educationActivities} title="Education" />
+            {/*This should show up under the main section only on mobile devices*/}
             {this.state.device === "mobile" && (
               <MoreInfo skills={currentSkills} id="more-info-desktop" />
             )}{" "}
@@ -55,8 +62,7 @@ class App extends React.Component {
   }
 }
 
-//https://www.w3schools.com/howto/howto_js_media_queries.asp
-
+/*Data to populate the various lists*/
 const currentSkills = [
   "English - native",
   "Scrum",
