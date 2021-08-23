@@ -2,6 +2,7 @@ import { About } from "../components/about.js";
 import { ActivityCard } from "../components/activityCard.js";
 import { MoreInfo } from "../components/moreInfo";
 import React from "react";
+import "./CV.css";
 
 export class Cv extends React.Component {
   constructor(props) {
