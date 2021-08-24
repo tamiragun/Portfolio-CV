@@ -1,5 +1,5 @@
 import React from "react";
-import { SkillsList } from "./about";
+import { SkillsList } from "./skillsList";
 
 export class MoreInfo extends React.Component {
   render() {

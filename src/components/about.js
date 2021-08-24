@@ -2,6 +2,7 @@ import React from "react";
 import TG_photo from "../assets/TG_photo.jpg";
 import linkedin from "../assets/linkedin.png";
 import github from "../assets/github.png";
+import { SkillsList } from "./skillsList";
 import "./about.css";
 
 export class About extends React.Component {
@@ -53,12 +54,4 @@ export class About extends React.Component {
       </div>
     );
   }
-}
-
-export function SkillsList(props) {
-  const skills = props.skills;
-  const skillsList = skills.map((skill, i) => (
-    <li key={skill + "_" + i}>{skill}</li>
-  ));
-  return <ul> {skillsList} </ul>;
 }
