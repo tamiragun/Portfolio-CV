@@ -30,7 +30,7 @@ const portfolioProjects = [
     description:
       "This capstone project for the Node/JS module at HyperionDev, I built a search function that retrieves a user from the Github and/or Gitlab API, and returns their basic profile information. You can also drill down into their top repositories and see their latest commits.",
     github_url: "https://github.com/tamiragun/hangman",
-    prod_url: "https://tamiragun-hangman.herokuapp.com/",
+    prod_url: null,
   },
   {
     title: "Wedding bells",
@@ -47,7 +47,7 @@ const portfolioProjects = [
     description:
       "As a part of the FEDSA mentoring programme, I built a homepage for a fictitious furniture company, based on a Figma design and some interactive feature requests.",
     github_url: "https://github.com/tamiragun/fedsa-project-1",
-    prod_url: "https://fedsa-project-1.netlify.app/",
+    prod_url: "https://ricca.netlify.app/",
   },
   {
     title: "Hangman",
