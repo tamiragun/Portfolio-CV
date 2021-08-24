@@ -1,6 +1,6 @@
 # Tamira's CV
 
-This was an assignment for the React portion of my coding bootcamp. It is a virtual version of my CV. It's entirely possible that it is what brought you to my Github profile!
+This was an assignment for the React portion of my coding bootcamp. It is a virtual version of my CV. It's entirely possible that it is what brought you to my Github profile! If not, check it out here: https://tamira-portfolio-cv.netlify.app/
 
 **Stack used**: JavaScript - React - CSS
 
