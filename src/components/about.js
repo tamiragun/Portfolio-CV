@@ -16,8 +16,15 @@ export class About extends React.Component {
 
         <div className="contact-info">
           <h3>Contact</h3>
-          <p>t.gunzburg@gmail.com</p>
-          <p>+27 81 393 9922</p>
+          {/*Use CSS pseudo-classes to hide my email address from bots. 
+          Courtesy of: https://www.labnol.org/internet/hide-email-address-web-pages/28364/ */}
+          <my-email data-user="t.gunzburg" data-domain="gmail.com">
+            @
+          </my-email>
+          {/* same principle for phone number, from https://security.stackexchange.com/a/234322*/}
+          <p>
+            +27 81 <span id="hide"> 548asd46</span>393 9922
+          </p>
           <div className="social-links">
             <a
               href="https://github.com/tamiragun"

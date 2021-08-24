@@ -30,3 +30,14 @@
   background-color: #d0ece7;
   border-radius: 10px;
 }
+
+/*Css styling to hide my email address and phone number from bots. */
+my-email::after {
+  content: attr(data-domain);
+}
+my-email::before {
+  content: attr(data-user);
+}
+#hide {
+  display: none;
+}
