@@ -102,17 +102,17 @@ const courses = [
   {
     title: "Certified full-stack web & software engineer bootcamp",
     institution: "HyperionDev",
-    dates: "March 2021-September 2021",
+    dates: "March 2021 - September 2021",
   },
   {
     title: "Individual certificates in coding languages and frameworks",
     institution: "Codecademy",
-    dates: "March 2021-ongoing",
+    dates: "March 2021 - ongoing",
   },
   {
     title: "Introduction to Functional Programming with Python I & II",
     institution: "University of Michigan, via Coursera",
-    dates: "January 2018-May 2018",
+    dates: "January 2018 - May 2018",
   },
 ];
 const awards = [
@@ -131,7 +131,7 @@ const workActivities = [
   {
     title: "Freelance code reviewer",
     institution: "CoGrammar",
-    dates: "November 2021-current",
+    dates: "November 2021 - current",
     location: "Cape Town, South Africa",
     description:
       "I perform live code reviews for bootcamp students at the UK-based Makers Academy. It involves giving feedback on their coding process, including Test Driven Development, modelling, debugging, refactoring, version control, language conventions, etc.",
@@ -139,7 +139,7 @@ const workActivities = [
   {
     title: "Chief Marketing Officer",
     institution: "HouseME",
-    dates: "February 2018-May 2021",
+    dates: "February 2018 - May 2021",
     location: "Cape Town, South Africa",
     description:
       "Started out as Head of Strategy, where I served as go-between for our tech and operations teams, collecting requirements, project managing deployments, and reporting on production issues. Product managed the roll-out of a new CRM, implemented email automation, and oversaw a domain-wide data migration project. After being promoted to CMO, I applied a data-centric approach to all our marketing activities and achieved a reduction of 65% to our customer acquisition cost. Oversaw the migration of our entire website to a Content Management System, coupled with a UX overhaul that led to a conversion rate improvement of 30%. Built over a dozen pages and landing pages using Wordpress. Rolled out an SEO strategy that saw web traffic increase by 400% over 2 years. Pioneered the automation of our SMS and email campaigns.",
@@ -155,7 +155,7 @@ const workActivities = [
   {
     title: "Advocacy Manager",
     institution: "Broederlijk Delen",
-    dates: "February 2009-September 2011",
+    dates: "February 2009 - September 2011",
     location: "Brussels, Belgium",
     description:
       "My first job as a lobbyist involved advocating for more transparency in the extractive industries, particularly in Central Africa and Latin America.",
@@ -163,7 +163,7 @@ const workActivities = [
   {
     title: "Intern",
     institution: "European Commission, Save the Children",
-    dates: "September 2007-February 2009",
+    dates: "September 2007 - February 2009",
     location: "Brussels, Belgium",
     description:
       "Learned my trade as a lobbyist by interning at a non-profit organization's Brussels-based EU advocacy branch, and subsequently at a government department of the EU itself.",
@@ -174,25 +174,25 @@ const educationActivities = [
   {
     title: "Certified full-stack web & software engineer bootcamp",
     institution: "HyperionDev",
-    dates: "March 2021-September 2021",
+    dates: "March 2021 - September 2021",
     location: "Cape Town, South Africa",
   },
   {
     title: "MBA, electives in entrepreneurship",
     institution: "University of Cape Town",
-    dates: "January 2017-December 2017",
+    dates: "January 2017 - December 2017",
     location: "Cape Town, South Africa",
   },
   {
     title: "BA, major in economics",
     institution: "Wellesley College",
-    dates: "September 2003-June 2007",
+    dates: "September 2003 - June 2007",
     location: "Boston, USA",
   },
   {
     title: "High school degree, major in math and science",
     institution: "Lyceum van Antwerpen",
-    dates: "September 1997-June 2003",
+    dates: "September 1997 - June 2003",
     location: "Antwerp, Belgium",
   },
 ];

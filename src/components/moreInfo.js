@@ -13,7 +13,8 @@ export class MoreInfo extends React.Component {
           <h3>References</h3>
           <p>
             References available on request. In addition, feel free to explore
-            my recent software development projects on GitHub.
+            my <a href="/portfolio">portfolio</a> or my recent software
+            development projects on GitHub.
           </p>
         </div>
         <div className="admin">
