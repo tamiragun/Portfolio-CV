@@ -128,6 +128,14 @@ const awards = [
 
 const workActivities = [
   {
+    title: "Freelance code reviewer",
+    institution: "CoGrammar",
+    dates: "November 2021-current",
+    location: "Cape Town, South Africa",
+    description:
+      "I perform live code reviews for bootcamp students at the UK-based Makers Academy. It involves giving feedback on their coding process, including Test Driven Development, modelling, debugging, refactoring, version control, language conventions, etc.",
+  },
+  {
     title: "Chief Marketing Officer",
     institution: "HouseME",
     dates: "February 2018-current",
