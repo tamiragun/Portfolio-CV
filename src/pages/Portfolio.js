@@ -17,6 +17,23 @@ const portfolioProjects = [
     prod_url: "https://tamiragun.github.io/RainbowMeds/",
   },
   {
+    title: "Doc2Blog",
+    stack: [
+      "Java",
+      "Spring Boot",
+      "PostgreSQL",
+      "JWT",
+      "Swagger",
+      "React",
+      "Bootstrap",
+      "Heroku",
+    ],
+    description:
+      "For our HyperionDev graduate programme, my teammate and I had to build a basic deadlines management, file upload, and spell check system for bloggers.",
+    github_url: "https://github.com/tamiragun/Doc2Blog",
+    prod_url: "https://doc2blog.herokuapp.com/",
+  },
+  {
     title: "FoodQuick",
     stack: ["Java", "SQL Server", "Docker"],
     description:
