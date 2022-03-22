@@ -138,7 +138,7 @@ const workActivities = [
   {
     title: "Chief Marketing Officer",
     institution: "HouseME",
-    dates: "February 2018-current",
+    dates: "February 2018-May 2021",
     location: "Cape Town, South Africa",
     description:
       "Started out as Head of Strategy, where I served as go-between for our tech and operations teams, collecting requirements, project managing deployments, and reporting on production issues. Product managed the roll-out of a new CRM, implemented email automation, and oversaw a domain-wide data migration project. After being promoted to CMO, I applied a data-centric approach to all our marketing activities and achieved a reduction of 65% to our customer acquisition cost. Oversaw the migration of our entire website to a Content Management System, coupled with a UX overhaul that led to a conversion rate improvement of 30%. Built over a dozen pages and landing pages using Wordpress. Rolled out an SEO strategy that saw web traffic increase by 400% over 2 years. Pioneered the automation of our SMS and email campaigns.",
