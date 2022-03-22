@@ -184,7 +184,7 @@ const educationActivities = [
   },
   {
     title: "BA, major in economics",
-    institution: "Welelsley College",
+    institution: "Wellesley College",
     dates: "September 2003-June 2007",
     location: "Boston, USA",
   },
