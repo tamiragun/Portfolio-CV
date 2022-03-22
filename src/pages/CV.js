@@ -90,6 +90,7 @@ const currentStack = [
   "Mocha",
   "Jest",
   "TDD",
+  "Swagger",
   "React",
   "jQuery",
   "HTML",
