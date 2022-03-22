@@ -55,7 +55,7 @@ export class About extends React.Component {
             marketing roles. Now that I have completed an intensive bootcamp in
             software engineering, I am ready to complete the transition to tech.
             I'm looking for a software development role where I can learn, grow,
-            and and make an impact.
+            and make an impact.
           </p>
         </div>
       </div>
