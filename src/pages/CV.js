@@ -104,9 +104,9 @@ const courses = [
     dates: "March 2021-September 2021",
   },
   {
-    title: "Full-Stack Software Engineer career path",
+    title: "Individual certificates in coding languages and frameworks",
     institution: "Codecademy",
-    dates: "March 2021-September 2021",
+    dates: "March 2021-ongoing",
   },
   {
     title: "Introduction to Functional Programming with Python I & II",
