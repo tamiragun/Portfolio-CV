@@ -46,7 +46,7 @@ const portfolioProjects = [
     stack: ["Node", "Express", "JavaScript", "React", "CSS"],
     description:
       "This capstone project for the Node/JS module at HyperionDev, I built a search function that retrieves a user from the Github and/or Gitlab API, and returns their basic profile information. You can also drill down into their top repositories and see their latest commits.",
-    github_url: "https://github.com/tamiragun/hangman",
+    github_url: "https://github.com/tamiragun/capstone-git-user-search-app",
     prod_url: null,
   },
   {
@@ -87,7 +87,7 @@ const portfolioProjects = [
     stack: ["JavaScript", "React", "CSS", "Netflify"],
     description:
       "Test this famous statistics riddle for yourself, by opening doors and winning prizes on my React app.",
-    github_url: "https://github.com/tamiragun/monty-hall",
+    github_url: "https://github.com/tamiragun/Monty-Hall",
     prod_url: "https://monte-hall.netlify.app/",
   },
   {
