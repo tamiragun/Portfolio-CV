@@ -129,17 +129,17 @@ const awards = [
 
 const workActivities = [
   {
-    title: "Freelance code reviewer",
-    institution: "CoGrammar",
-    dates: "November 2021 - current",
+    title: "Junior Software Engineer",
+    institution: "WhereIsMyTransport",
+    dates: "July 2022 - current",
     location: "Cape Town, South Africa",
     description:
-      "I perform live code reviews for bootcamp students at the UK-based Makers Academy. It involves giving feedback on their coding process, including Test Driven Development, modelling, debugging, refactoring, version control, language conventions, etc.",
+      "I help build and maintain the back-end services that power our consumer-facing app, which enables users in emerging market cities to plan their journeys using data on informal public transport as well as formal public transport. The technologies I work with include Java, Python, C#, Firebase, ASP.NET, Docker, Kubernetes, amongst others.",
   },
   {
     title: "Chief Marketing Officer",
     institution: "HouseME",
-    dates: "February 2018 - May 2021",
+    dates: "February 2018 - October 2021",
     location: "Cape Town, South Africa",
     description:
       "Started out as Head of Strategy, where I served as go-between for our tech and operations teams, collecting requirements, project managing deployments, and reporting on production issues. Product managed the roll-out of a new CRM, implemented email automation, and oversaw a domain-wide data migration project. After being promoted to CMO, I applied a data-centric approach to all our marketing activities and achieved a reduction of 65% to our customer acquisition cost. Oversaw the migration of our entire website to a Content Management System, coupled with a UX overhaul that led to a conversion rate improvement of 30%. Built over a dozen pages and landing pages using Wordpress. Rolled out an SEO strategy that saw web traffic increase by 400% over 2 years. Pioneered the automation of our SMS and email campaigns.",

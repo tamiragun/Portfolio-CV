@@ -52,10 +52,10 @@ export class About extends React.Component {
             After working for ten years as a political lobbyist, I decided to
             transition into the tech industry. First, I joined a tech startup,
             where I wore multiple hats. These included product, data, and
-            marketing roles. Now that I have completed an intensive bootcamp in
-            software engineering, I am ready to complete the transition to tech.
-            I'm looking for a software development role where I can learn, grow,
-            and make an impact.
+            marketing roles. Wanting to go more technical, I then completed an 
+            intensive bootcamp in software engineering. I am now happy as a clam 
+            working as a software engineer, always on the lookout to keep 
+            learning and give back.
           </p>
         </div>
       </div>
