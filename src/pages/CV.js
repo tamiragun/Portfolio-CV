@@ -44,10 +44,10 @@ export class Cv extends React.Component {
           )}
         </div>
         <div className="main-section">
-          <ActivityCard activities={courses} title="Courses" />
-          <ActivityCard activities={awards} title="Awards" />
           <ActivityCard activities={workActivities} title="Work experience" />
           <ActivityCard activities={educationActivities} title="Education" />
+          <ActivityCard activities={awards} title="Awards" />
+          <ActivityCard activities={courses} title="Courses" />
           {/*This should show up under the main section only on mobile devices*/}
           {this.state.device === "mobile" && (
             <MoreInfo skills={currentSkills} id="more-info-desktop" />
@@ -61,7 +61,7 @@ export class Cv extends React.Component {
 /*Data to populate the various lists*/
 const currentSkills = [
   "English - native",
-  "Scrum",
+  "Software development",
   "Product management",
   "Dutch - fluent",
   "French - fluent",
@@ -72,27 +72,31 @@ const currentStack = [
   "Java",
   "Spring Boot",
   "Node.js",
+  "Typescript",
+  "JavaScript",
   "Express",
-  "PHP",
-  "Laravel",
+  "React",
+  "Firebase",
+  "C#",
+  ".NET",
   "SQL",
   "PostgreSQL",
   "MySQL",
   "SQL Server",
+  "Firestore",
   "MongoDB",
-  "JWT",
   "Docker",
-  "Git",
-  "Github",
+  "Github Actions",
+  "Azure",
+  "Pulumi",
+  "Kubernetes",
   "Heroku",
-  "Netlify",
-  "JavaScript",
   "Mocha",
   "Jest",
+  "Appium",
+  "Mock Server",
   "TDD",
   "Swagger",
-  "React",
-  "jQuery",
   "HTML",
   "CSS",
   "Bootstrap",
@@ -129,13 +133,21 @@ const awards = [
 
 const workActivities = [
   {
-    title: "Junior Software Engineer",
+    title: "Software Engineer",
     institution: "WhereIsMyTransport",
-    dates: "July 2022 - current",
+    dates: "July 2022 - July 2023",
     location: "Cape Town, South Africa",
     description:
-      "I help build and maintain the back-end services that power our consumer-facing app, which enables users in emerging market cities to plan their journeys using data on informal public transport as well as formal public transport. The technologies I work with include Java, Python, C#, Firebase, ASP.NET, Docker, Kubernetes, amongst others.",
+      "Worked as a full-stack software engineer on a public transport mobile app. Within the microservices architecture I was mostly responsible for building and maintaining our back-end services, infrastructure, deployment process, and testing framework. Worked principally in Typesript and Java, using various tools and frameworks such as Firebase, React, Appium, Azure pipelines, Github Actions, Pulumi, Airflow, Flutter, and .NET.", 
   },
+  // {
+  //   title: "Freelance code reviewer",
+  //   institution: "Cogrammar",
+  //   dates: "November 2021 - June 2022",
+  //   location: "Cape Town, South Africa",
+  //   description:
+  //     "Performed live code reviews for bootcamp students at the UK-based Makers Academy. It involves giving feedback on their coding process, including Test Driven Development, modelling, debugging, refactoring, version control, language conventions, etc.", 
+  // },
   {
     title: "Chief Marketing Officer",
     institution: "HouseME",
