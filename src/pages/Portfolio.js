@@ -31,7 +31,8 @@ const portfolioProjects = [
     description:
       "For our HyperionDev graduate programme, my teammate and I had to build a basic deadlines management, file upload, and spell check system for bloggers.",
     github_url: "https://github.com/tamiragun/Doc2Blog",
-    prod_url: "https://doc2blog.herokuapp.com/",
+    //prod_url: "https://doc2blog.herokuapp.com/",
+    prod_url: null,
   },
   {
     title: "FoodQuick",
@@ -56,7 +57,8 @@ const portfolioProjects = [
       "A paired project where my brother made the front end of his wedding website on Wordpress and I implemented some back-end and database functionality to enable guests to reserve gifts on the registry.",
     github_url:
       "https://github.com/tamiragun/wedding-register-wordpress-plugin",
-    prod_url: "http://www.buggenburg.be/",
+    //prod_url: "http://www.buggenburg.be/",
+    prod_url: null,
   },
   {
     title: "Ricca furniture",
@@ -72,7 +74,8 @@ const portfolioProjects = [
     description:
       "Play the famous word guessing game against the computer with this single page application.",
     github_url: "https://github.com/tamiragun/hangman",
-    prod_url: "https://tamiragun-hangman.herokuapp.com/",
+    // prod_url: "https://tamiragun-hangman.herokuapp.com/",
+    prod_url: null,
   },
   {
     title: "Cool tech",
