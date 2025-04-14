@@ -66,35 +66,40 @@ const currentSkills = [
   "Dutch - fluent",
   "French - fluent",
   "Spanish - fluent",
+  "Setswana - conversational",
 ];
 
 const currentStack = [
-  "Java",
-  "Spring Boot",
   "Node.js",
   "Typescript",
   "JavaScript",
   "Express",
   "React",
   "Firebase",
+  "Java",
+  "Spring Boot",
   "C#",
   ".NET",
   "SQL",
   "PostgreSQL",
   "MySQL",
-  "SQL Server",
   "Firestore",
   "MongoDB",
-  "Docker",
   "Github Actions",
+  "Gitlab",
   "Azure",
+  "Google CLoud Platform",
+  "AWS",
   "Pulumi",
+  "Serverless",
+  "Docker",
   "Kubernetes",
   "Heroku",
   "Mocha",
   "Jest",
   "Appium",
   "Mock Server",
+  "Testcontainers",
   "TDD",
   "Swagger",
   "HTML",
@@ -127,27 +132,51 @@ const awards = [
     dates: "June 2021",
     location: "Cape Town, South Africa",
     description:
-      "Participated as developer in a team of 4 that won first place in the June 2021 hackathon themed 'Disrupting Monolingualism in Digital Spaces'. Our project involved a chatbot, powered by Botlhale's multilingual NLP/AI software, that can translate pharmaceutical information leaflets in real time for non-native English speakers in South Africa.",
+      "Came first place in the hackathon themed 'Disrupting Monolingualism in Digital Spaces'. Our project involved a chatbot, powered by Botlhale's multilingual NLP/AI software, that can translate pharmaceutical information leaflets in real time for non-native English speakers in South Africa.",
+  },
+  {
+    title: "Second prize in Open Payments hackathon",
+    institution: "Interledger",
+    dates: "October 2024",
+    location: "Cape Town, South Africa",
+    description:
+      "Our team extended the Interledger Protocol to enable multi-party and multi-channel payment approvals.",
+  },
+  {
+    title: "Second prize in AI 4 Women hackathon",
+    institution: "Girlcode ZA",
+    dates: "August 2023",
+    location: "Cape Town, South Africa",
+    description:
+      "Our team developed an index that rates AI models on how likely they are to include gender bias, and offers mitigation strategies for the model.",
   },
 ];
 
 const workActivities = [
   {
     title: "Software Engineer",
+    institution: "Peach Payments",
+    dates: "April 2024 - April 2025",
+    location: "Cape Town, South Africa",
+    description:
+      "Working as a full-stack software engineer for a payment gateway. I am responsible for designing, building, deploying and maintaining billing solutions along with their required infrastructure. I work mostly in Typescript and SQL, using AWS lambdas, ECS, S3, SQS queues, Serverless, and Gitlab pipelines.",
+  },
+  {
+    title: "Software Engineer",
     institution: "WhereIsMyTransport",
     dates: "July 2022 - July 2023",
     location: "Cape Town, South Africa",
     description:
-      "Worked as a full-stack software engineer on a public transport mobile app. Within the microservices architecture I was mostly responsible for building and maintaining our back-end services, infrastructure, deployment process, and testing framework. Worked principally in Typesript and Java, using various tools and frameworks such as Firebase, React, Appium, Azure pipelines, Github Actions, Pulumi, Airflow, Flutter, and .NET.", 
+      "Worked as a full-stack software engineer on a public transport mobile app. Within the microservices architecture I was mostly responsible for building and maintaining our back-end services, infrastructure, deployment process, and testing framework. Worked principally in Typesript and Java, using various tools and frameworks such as Firebase, React, Appium, Azure pipelines, Github Actions, Pulumi, Airflow, Flutter, and .NET.",
   },
-  // {
-  //   title: "Freelance code reviewer",
-  //   institution: "Cogrammar",
-  //   dates: "November 2021 - June 2022",
-  //   location: "Cape Town, South Africa",
-  //   description:
-  //     "Performed live code reviews for bootcamp students at the UK-based Makers Academy. It involves giving feedback on their coding process, including Test Driven Development, modelling, debugging, refactoring, version control, language conventions, etc.", 
-  // },
+  {
+    title: "Freelance code reviewer",
+    institution: "Cogrammar",
+    dates: "November 2021 - June 2022",
+    location: "Cape Town, South Africa",
+    description:
+      "Performed live code reviews for bootcamp students at the UK-based Makers Academy. It involves giving feedback on their coding process, including Test Driven Development, modelling, debugging, refactoring, version control, language conventions, etc.",
+  },
   {
     title: "Chief Marketing Officer",
     institution: "HouseME",
